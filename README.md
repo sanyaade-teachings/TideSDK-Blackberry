@@ -1,7 +1,7 @@
-Titanium Mobile BlackBerry
+TideSDK Mobile BlackBerry
 ==========================
 
-Titanium Mobile BlackBerry is the Titanium platform support for the latest BlackBerry phone and tablet platform.
+TideSDK Mobile BlackBerry is the TideSDK platform support for the latest BlackBerry phone and tablet platform.
 
 Current Status
 --------------
@@ -11,9 +11,9 @@ Current Status
 Release Notes
 -------------
 
-The Beta release is being made available to encourage developers to start building new applications and port existing Titanium applications to the new BlackBerry 10 Platform. 
+The Beta release is being made available to encourage developers to start building new applications and port existing TideSDK applications to the new BlackBerry 10 Platform. 
 
-In the last few months BlackBerry released its new operating system, BlackBerry 10 as well as the first BlackBerry 10 phone, the Z10. The phone has garnered critical praise for its technical chops, with a fast OS and well-integrated user interface. If you want to try out the Titanium BlackBerry beta but don't have access to a Z10, the simulator that ships with the BlackBerry 10 Native SDK is easy to use and represents the phone nicely.
+In the last few months BlackBerry released its new operating system, BlackBerry 10 as well as the first BlackBerry 10 phone, the Z10. The phone has garnered critical praise for its technical chops, with a fast OS and well-integrated user interface. If you want to try out the TideSDK BlackBerry beta but don't have access to a Z10, the simulator that ships with the BlackBerry 10 Native SDK is easy to use and represents the phone nicely.
 
 In this beta release we believe there are the majority of features to get you started, including Alloy support, MapView, WebView, Database, Localization Support, and much, much more. 
 
@@ -36,7 +36,7 @@ test/apps - small focused apps to test platform features
 runtime -  the Javascript runtime source
 
 
-How to get Started with Titanium BlackBerry Development
+How to get Started with TideSDK BlackBerry Development
 -------------------------------------------------------
 
 1) Download and install VMware Fusion for Mac and if doing development on Microsoft Windows VMware Player. This is for the BlackBerry 10 simulator. We have tested using the most recent version 5.0.0.
@@ -49,19 +49,19 @@ How to get Started with Titanium BlackBerry Development
 
 5) When the simulator starts up in the lower left side of the simulator display is an IP address--please note the number.
 
-Note: If you are interested in writing Titanium Applications go to "How to Create Titanium Applications using the BlackBerry SDK" section below. If you are interested in native BlackBerry development to extend or contribute to the Titanium platform go to "How to Setup and Build the Titanium BlackBerry SDK (Native Platform Drop-In)"
+Note: If you are interested in writing TideSDK Applications go to "How to Create TideSDK Applications using the BlackBerry SDK" section below. If you are interested in native BlackBerry development to extend or contribute to the TideSDK platform go to "How to Setup and Build the TideSDK BlackBerry SDK (Native Platform Drop-In)"
 
 
-How to Create Titanium Applications using the BlackBerry SDK
+How to Create TideSDK Applications using the BlackBerry SDK
 ------------------------------------------------------------
 
-1) Get the latest Titanium Studio at http://preview.appcelerator.com/studio/bb. The Studio team will be posting frequent updates.
+1) Get the latest TideSDK Studio at http://preview.appcelerator.com/studio/bb. The Studio team will be posting frequent updates.
 
-2) Download and unzip the most recent BlackBerry Titanium SDK from http://preview.appcelerator.com/studio/bb. The BB team will be posting frequent updates.
+2) Download and unzip the most recent BlackBerry TideSDK SDK from http://preview.appcelerator.com/studio/bb. The BB team will be posting frequent updates.
 
-3) In the Preferences panel under Titanium Studio > Preferences from the main menu select Titanium Studio and then Titanium. In the Titanium SDK Home box put the path of downloaded BlackBerry Titanium SDK. Goto the BlackBerry tab and in the BlackBerry NDK Home box put the path to the NDK downloaded from step 2 BlackBerry tools setup above. It by default lives in /Applications/bbndk on Mac. In the Simulator IP box enter the IP address you noted in step 5 BlackBerry tools setup above.
+3) In the Preferences panel under TideSDK Studio > Preferences from the main menu select TideSDK Studio and then TideSDK. In the TideSDK SDK Home box put the path of downloaded BlackBerry TideSDK SDK. Goto the BlackBerry tab and in the BlackBerry NDK Home box put the path to the NDK downloaded from step 2 BlackBerry tools setup above. It by default lives in /Applications/bbndk on Mac. In the Simulator IP box enter the IP address you noted in step 5 BlackBerry tools setup above.
 
-4) Use Titanium Studio to create a new BlackBerry project by select File->New. Pick a starter template. When done you can run your newly created project to the BlackBerry simulator by choosing Run As->BlackBerry Simulator.
+4) Use TideSDK Studio to create a new BlackBerry project by select File->New. Pick a starter template. When done you can run your newly created project to the BlackBerry simulator by choosing Run As->BlackBerry Simulator.
 
 5) To display Ti.APP.info for your application you need to use the command line / BB tools for now until Studio can read the logs. Here's the steps:
 
@@ -79,7 +79,7 @@ How to Create Titanium Applications using the BlackBerry SDK
 5. From a command window run "./blackberry-debugtokenrequest -storepass STORE_PASSWORD -devicepin DEVICE_PIN debugtoken.bar"
 6. From a command window run "./blackberry-deploy -installDebugToken PATH_TO_DEBUG_TOKEN/debugtoken.bar -device DEVICE_IP  -password DEVICE_PASSWORD
 
-7) The easiest way to target running applications is to use Titanium Studio but you can also use command-line utilities to do the same activities as in Studio.
+7) The easiest way to target running applications is to use TideSDK Studio but you can also use command-line utilities to do the same activities as in Studio.
 
 Command Line Interface (CLI)
 -----------------------------
@@ -99,7 +99,7 @@ Command Line Interface (CLI)
 3.2 CLI
 -------
 
-The older Python CLI described above will still work, but as of 3.2 release the BlackBerry SDK now supports the newer Node.js CLI. Below are some of the more common build commands. A more complete description can be found at http://docs.appcelerator.com/titanium/latest/#!/guide/Titanium_Command-Line_Interface_Reference.
+The older Python CLI described above will still work, but as of 3.2 release the BlackBerry SDK now supports the newer Node.js CLI. Below are some of the more common build commands. A more complete description can be found at http://docs.appcelerator.com/titanium/latest/#!/guide/TideSDK_Command-Line_Interface_Reference.
 
 - To create a project:
 
@@ -135,7 +135,7 @@ The tiapp.xml configuration file has been extended to make it easier to edit app
 		</blackberry>
 
 
-How to Setup, Build and Test the Titanium BlackBerry SDK
+How to Setup, Build and Test the TideSDK BlackBerry SDK
 ---------------------------------------------------------
 
 Note: The following instructions are for Mac. For Windows you will need cygwin or some other Unix on Windows utility.
@@ -158,19 +158,19 @@ Note: The following instructions are for Mac. For Windows you will need cygwin o
 How to Update BlackBerry SDK to latest Night Build
 -------------------------------------------------- 
 
-To get the latest prepackaged Titanium SDK including BlackBerry follow the steps below.
+To get the latest prepackaged TideSDK SDK including BlackBerry follow the steps below.
 
 1. Goto http://builds.appcelerator.com.s3.amazonaws.com/index.html.
 2. Choose "master" in dropdown.
 3. Choose the desired build and then copy the link. 
-4. Launch Titanium Studio and goto Help->Install Specific Titanium SDK and in the box paste the link copied from step 3 above. Choose Finish.
+4. Launch TideSDK Studio and goto Help->Install Specific TideSDK SDK and in the box paste the link copied from step 3 above. Choose Finish.
 
 Note: When using nightly builds and you have previous projects it is best if you do a project clean and build before running your application. Make sure to select the appropriate SDK in tiapp.xml.  
 
-How to Build and Deploy the Titanium BlackBerry SDK (Native Platform Drop-In)
+How to Build and Deploy the TideSDK BlackBerry SDK (Native Platform Drop-In)
 -----------------------------------------------------------------------------
 
-1) To create the the blackberry drop-in, from the repo cli/commands execute "./create_sdk" this will create a build folder with the blackberry sdk folder in it. The blackberry folder can be dropped into a current Titanium SDK. The create_sdk script will call create_sdk.js which is a Node.js module and has a dependency on the wrench module. If you get an error about wrench, execute the command "npm install wrench".
+1) To create the the blackberry drop-in, from the repo cli/commands execute "./create_sdk" this will create a build folder with the blackberry sdk folder in it. The blackberry folder can be dropped into a current TideSDK SDK. The create_sdk script will call create_sdk.js which is a Node.js module and has a dependency on the wrench module. If you get an error about wrench, execute the command "npm install wrench".
 
 Feedback
 --------
@@ -185,15 +185,10 @@ https://appcelerator.webex.com/appcelerator/lsr.php?AT=pb&SP=EC&rID=63953422&rKe
 Contributing
 -------------
 
-Titanium is an open source project.  Titanium wouldn't be where it is now without contributions by the community. Please consider forking this repo to improve, enhance or fix issues. If you feel like the community will benefit from your fork, please open a pull request. 
-
-To protect the interests of the Titanium contributors, Appcelerator, customers and end users we require contributors to sign a Contributors License Agreement (CLA) before we pull the changes into the main repository. Our CLA is simple and straightforward - it requires that the contributions you make to any Appcelerator open source project are properly licensed and that you have the legal authority to make those changes. This helps us significantly reduce future legal risk for everyone involved. It is easy, helps everyone, takes only a few minutes, and only needs to be completed once. 
-
-[You can digitally sign the CLA](http://bit.ly/app_cla) online. Please indicate your email address in your first pull request so that we can make sure that will locate your CLA.  Once you've submitted it, you no longer need to send one for subsequent submissions.
+TideSDK is an open source project.  TideSDK wouldn't be where it is now without contributions by the community. Please consider forking this repo to improve, enhance or fix issues. If you feel like the community will benefit from your fork, please open a pull request. 
 
 
 Legal
 ------
 
-Titanium Mobile BlackBerry is developed by Appcelerator and the community and is Copyright (c) 2012-2013 by Appcelerator, Inc. All Rights Reserved.
-Titanium Mobile BlackBerry is made available under the Apache Public License, version 2.  See the [LICENSE](https://github.com/appcelerator/titanium_mobile_blackberry/blob/master/LICENSE) file for more information.
+TideSDK Mobile BlackBerry is available under the Apache Public License, version 2.  See the [LICENSE](http://www.apache.org/licenses/LICENSE-2.0.html) file for more information.
